@@ -41,7 +41,7 @@ const headStyle2 = {
 class StallDisplay extends Component {
     state = {
         show: false,
-        open: true,
+        open: false,
         setOpen: false
     };
 

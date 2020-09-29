@@ -20,7 +20,7 @@ class App extends React.Component {
     function SecuredRoute(props) {
       console.log('this is props',props);
       return(
-        <Route path={props.path} render={ data =>  !props.auth.isAuthenticated ?
+        <Route path={props.path} render={ data =>  props.auth.isAuthenticated ?
           (<props.component {...data}></props.component>):
           (<Redirect to={{pathname: '/'}}></Redirect> )}></Route>
       )
