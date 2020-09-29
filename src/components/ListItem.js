@@ -14,8 +14,9 @@ const useStyles = makeStyles((theme) => ({
     position: 'absolute',
     left: '20%',
     top: '20%',
-    backgroundColor: 'gray'
-    //backgroundColor: theme.palette.background.paper,
+    backgroundColor: '#eee',
+    borderRadius: 10,
+    // backgroundColor: theme.palette.background.paper,
   },
 }));
 // const styles = {
@@ -44,7 +45,7 @@ export default function VirtualizedList(props) {
 
   return (
     <div className={classes.root}>
-        <h6 style={{backgroundColor: 'gray', textAlign: 'center', height: 40, paddingTop: 10,color: 'white'}}>Currently Present</h6>
+        <h6 style={{backgroundColor: '#eee', textAlign: 'center', height: 40, paddingTop: 10,color: 'black'}}>Currently Present</h6>
       <FixedSizeList height={400} width={300} itemSize={60} itemCount={props.leng} style={{backgroundColor: 'white'}}>
         {renderRow}
       </FixedSizeList>

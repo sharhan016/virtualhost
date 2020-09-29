@@ -4,10 +4,11 @@ import Typography from '@material-ui/core/Typography';
 import CustomListItem from './ListItem'
 
 const textStyle = {
-    position: 'absolute',
-    left: 1450
+    zIndex: 1
+    // position: 'absolute',
+    // left: 1450
 }
-const body = <CustomListItem leng={12} />
+// const body = <CustomListItem leng={12} />
 const body2 = <CustomListItem leng={6} />
 class UserPresent extends Component {
     constructor(props) {
@@ -54,7 +55,7 @@ class UserPresent extends Component {
   render() {
     return (
         <div style={textStyle}>
-        <Typography variant="h5" onClick={this.handleOpenVisitor}>
+        <Typography variant="h6" onClick={this.handleOpenVisitor}>
             Total Visitors : 12
          </Typography>
          <Modal
@@ -64,7 +65,7 @@ class UserPresent extends Component {
             <CustomListItem leng={this.state.visi} />
         </Modal>
         
-        <Typography variant="h5" onClick={this.handleOpenlocation}>
+        <Typography variant="h6" onClick={this.handleOpenlocation}>
             At this Location : 6
 </Typography>
 <Modal

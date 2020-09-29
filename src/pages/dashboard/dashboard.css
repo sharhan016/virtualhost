@@ -1,0 +1,98 @@
+.custom{
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    width: 100%;
+    height: 98vh;
+    transform: translate(-30%,-20%);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+
+.backgroundDisplay{
+    /* background: url('../../assets/images/lobby.jpg'); */
+    position: absolute;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* height: 100vh; */
+    /* background-size: cover;
+    background-position: center; */
+}
+.btnContainer {
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    background: #fff5;
+}
+.exhibitionbtn{
+    position: absolute;
+    height: 45px;
+    width: 230px;
+    left: 690px;
+    top: 450px;
+    /* background-color: brown; */
+    transform: translate(-50%,-50%);
+    /* border-radius: 5px; */
+}
+
+.exhibitionbtn:hover {
+    /* box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5); */
+    box-shadow: 0 0 2px 1px white;
+  }
+
+.chat-minimised {
+    position: absolute;
+    left: 1060px;
+    top: 630px;
+    height: 35px;
+    width: 180px;
+    background-color: blanchedalmond;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.chat-container {
+    position: absolute;
+    /* bottom: 0px;  */
+    outline: none;
+    top: 460px;
+    left: 990px;
+    background: white;
+    border-radius: 10px;
+    transform: translate(-50%,-50%);
+    min-width: 400px;
+    max-width: 500px;
+    /* max-height: 800px; */
+    width: 100%;
+    height: 400px;
+  }
+
+   /* .modal{ */
+    /* position: fixed;
+    top: 0;
+    left: 0; */
+    /* outline: none !important; */
+    /* bottom: 0; */
+    /* width:100%;
+    height: 100vh; */
+    /* border: 0 !important; */
+    /* background: rgba(0, 0, 0, 0.6); */
+  /* }  */
+
+  .search-stalls {
+    position:fixed;
+    outline: none !important;
+    background: white;
+    width: 800px;
+    height: 450px;
+    top:50%;
+    left:50%;
+    /* display: flex;  800 500
+    flex-direction: row; */
+    border-radius: 2px;
+    transform: translate(-50%,-50%);
+  }
